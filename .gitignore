@@ -1,0 +1,62 @@
+# Ignore files in the voting-api directory
+/voting-api/target/
+/voting-api/*.class
+/voting-api/*.jar
+/voting-api/*.war
+/voting-api/*.ear
+/voting-api/*.db
+/voting-api/*.log
+/voting-api/*.bak
+
+# Spring Boot specific
+spring-boot-loader.properties
+
+# Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!mvnw
+!mvnw.cmd
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.dependencies
+pom.xml.backup
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+gradle-wrapper.jar
+
+# IDEs
+## IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+## Eclipse
+.project
+.classpath
+.settings/
+
+## NetBeans
+.nb-gradle/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# User-specific files
+*.swp
+*~.nib
+*.sublime-workspace
+*.sublime-project
+
+# Configuration files
+*.h2.db
+*.h2.log
